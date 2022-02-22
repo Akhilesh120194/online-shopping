@@ -4,6 +4,6 @@ public class Test {
 
 public static void main(String[] args)
 {i
-	System.out.println("Set-up ,tedddskting");
+	System.out.println("Set-uddp ,tedddskting");
 	}
 }
