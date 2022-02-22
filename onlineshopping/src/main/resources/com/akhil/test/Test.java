@@ -4,6 +4,6 @@ public class Test {
 
 public static void main(String[] args)
 {i
-	System.out.println("Hkajadi");
+	System.out.println("Setup testing");
 	}
 }
