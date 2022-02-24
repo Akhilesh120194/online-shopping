@@ -14,7 +14,7 @@ xmlns:mvc = "http://www.springframework.org/schema/mvc"
     other controller are lying  -->
     
     <context:component-scan base-package="package com.akhilexpress.onlineshopping.controller"></context:component-scan>
-  
+ <context:component-scan base-package="com.akhilexpress.shoppingbackend"></context:component-scan>  
   <bean id="viewResolver"
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 		

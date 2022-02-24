@@ -64,12 +64,12 @@
 			</c:if>
 
 			<!-- Loding only when user clicks listProducts -->
-			<c:if test="${userClickListProducts==true}">
+			<c:if test="${userClickAllProducts==true or userClickCategoryProducts==true}">
 				<%@include file="listProducts.jsp"%>
 			</c:if>
 
 			<!-- Loding only when user clicks contacts -->
-			<c:if test="${userClickListContact==true}">
+			<c:if test="${userClickContact==true}">
 				<%@include file="contact.jsp"%>
 			</c:if>
 
